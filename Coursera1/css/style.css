@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family:  Georgia, serif
+}
+
+h1 {
+    color: black;
+    font-size: 175%;
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;    
+    background-color: yellow;
+    height: 250px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    float: right;
+    border:1px solid black;
+    color: white;
+    font-size: 125%;
+    padding: 5px 20px 5px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#id{
+  border-radius: 10px;
+}
+
+p {
+    clear: right;
+    width: 90%;
+    margin-left: 20px;
+
+}
+#Physics {
+    background-color: darkgreen;
+}
+
+#Chemistry {
+    background-color: red;
+}
+
+#Maths {
+    background-color: navy;
+}
+
+
+/********** Desktop version **********/
+@media (min-width: 992px) {
+    .desktop-1, .desktop-2, .desktop-3, .desktop-4, .desktop-5, .desktop-6, .desktop-7, .desktop-8, .desktop-9, .desktop-10, .desktop-11, .desktop-12 {
+      float: left;
+      padding: 15px;
+    }
+    .desktop-1 {
+      width: 8.33%;
+    }
+    .desktop-2 {
+      width: 16.66%;
+    }
+    .desktop-3 {
+      width: 25%;
+    }
+    .desktop-4 {
+      width: 33.33%;
+    }
+    .desktop-5 {
+      width: 41.66%;
+    }
+    .desktop-6 {
+      width: 50%;
+    }
+    .desktop-7 {
+      width: 58.33%;
+    }
+    .desktop-8 {
+      width: 66.66%;
+    }
+    .desktop-9 {
+      width: 75%;
+    }
+    .desktop-10 {
+      width: 83.33%;
+    }
+    .desktop-11 {
+      width: 91.66%;
+    }
+    .desktop-12 {
+      width: 100%;
+    }
+  }
+  
+  /********** Tablet version **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .tablet-1, .tablet-2, .tablet-3, .tablet-4, .tablet-5, .tablet-6, .tablet-7, .tablet-8, .tablet-9, .tablet-10, .tablet-11, .tablet-12 {
+      float: left;
+      padding: 15px;
+    }
+    .tablet-1 {
+      width: 8.33%;
+    }
+    .tablet-2 {
+      width: 16.66%;
+    }
+    .tablet-3 {
+      width: 25%;
+    }
+    .tablet-4 {
+      width: 33.33%;
+    }
+    .tablet-5 {
+      width: 41.66%;
+    }
+    .tablet-6 {
+      width: 50%;
+    }
+    .tablet-7 {
+      width: 58.33%;
+    }
+    .tablet-8 {
+      width: 66.66%;
+    }
+    .tablet-9 {
+      width: 75%;
+    }
+    .tablet-10 {
+      width: 83.33%;
+    }
+    .tablet-11 {
+      width: 91.66%;
+    }
+    .tablet-12 {
+      width: 100%;
+    }
+  }
+
+  /********** Mobile version **********/
+  @media (max-width: 767px) {
+    .mobile-1, .mobile-2, .mobile-3, .mobile-4, .mobile-5, .mobile-6, .mobile-7, .mobile-8, .mobile-9, .mobile-10, .mobile-11, .mobile-12 {
+      float: left;
+      padding: 15px;
+    }
+    .mobile-1 {
+      width: 8.33%;
+    }
+    .mobile-2 {
+      width: 16.66%;
+    }
+    .mobile-3 {
+      width: 25%;
+    }
+    .mobile-4 {
+      width: 33.33%;
+    }
+    .mobile-5 {
+      width: 41.66%;
+    }
+    .mobile-6 {
+      width: 50%;
+    }
+    .mobile-7 {
+      width: 58.33%;
+    }
+    .mobile-8 {
+      width: 66.66%;
+    }
+    .mobile-9 {
+      width: 75%;
+    }
+    .mobile-10 {
+      width: 83.33%;
+    }
+    .mobile-11 {
+      width: 91.66%;
+    }
+    .mobile-12 {
+      width: 100%;
+    }
+  }
